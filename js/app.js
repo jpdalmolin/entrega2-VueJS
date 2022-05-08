@@ -48,19 +48,19 @@ var app = new Vue({
         tabla2: {
             titulos: ["ID", "Nombre", "Apellido", "Provincia"],
             registros: [
-                ["Jose", "Velez", "San Luis"],
-                ["Ramon", "Gomez", "Santa Fe"],
-                ["Marcelo", "Godino", "Buenos Aires"],
-                ["Ramiro", "Gimenez", "Salta"],
+                ["Tobias", "Velez", "San Luis"],
+                ["Lautaro", "Gomez", "Santa Fe"],
+                ["Andres", "Godino", "Buenos Aires"],
+                ["Martin", "Gimenez", "Salta"],
             ]
         },
         tabla3: {
             titulos: ["ID", "Nombre", "Apellido", "Provincia"],
             registros: [
-                ["Jose", "Velez", "San Luis"],
-                ["Ramon", "Gomez", "Santa Fe"],
-                ["Marcelo", "Godino", "Buenos Aires"],
-                ["Ramiro", "Gimenez", "Salta"],
+                ["Matias", "Velez", "San Luis"],
+                ["Tomas", "Gomez", "Santa Fe"],
+                ["Jose", "Godino", "Buenos Aires"],
+                ["Rama", "Gimenez", "Salta"],
             ]
         },
         //TODO: acá habrá que crear 2 objetos nuevos: tabla2 y tabla 3, y luego reutilizar el componente cambiando los valores pasados como parámetro en las props
@@ -70,7 +70,7 @@ var app = new Vue({
             <mi-tabla :titulos="tabla1.titulos" :registros="tabla1.registros" ></mi-tabla>
             <mi-tabla :titulos="tabla2.titulos" :registros="tabla2.registros" ></mi-tabla>
             <mi-tabla :titulos="tabla3.titulos" :registros="tabla3.registros" ></mi-tabla>
-            TODO: hacer que acá abajo se dibujen 2 tablas más, con su respectiva información.
+            
         </div>
     `
 });
